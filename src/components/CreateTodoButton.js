@@ -1,12 +1,11 @@
 import React from 'react'
 import '../assets/styles/components/CreateTodoButton.css'
 
-function CreateTodoButton() {
+function CreateTodoButton(props) {
     return (
-        <div>
-            
-        </div>
-    )
-}
+      <button className="CreateTodoButton">+</button>
+    );
+  }
+  
 
 export { CreateTodoButton }

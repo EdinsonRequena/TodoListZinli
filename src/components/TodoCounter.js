@@ -3,10 +3,8 @@ import '../assets/styles/components/TodoCounter.css'
 
 function TodoCounter() {
     return (
-        <div className='hola_mundo'>
-            <h2>Hola mundo</h2>
-        </div>
-    )
-}
+      <h2 className="TodoCounter">Has completado 2 de 3 TODOs</h2>
+    );
+  }
 
 export { TodoCounter }

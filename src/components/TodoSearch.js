@@ -3,10 +3,8 @@ import '../assets/styles/components/TodoSearch.css'
 
 function TodoSearch() {
     return (
-        <div>
-            
-        </div>
-    )
-}
+      <input className="TodoSearch" placeholder="Cebolla" />
+    );
+  }
 
 export { TodoSearch }
