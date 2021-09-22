@@ -1,9 +1,10 @@
 // import './App.css';
 import React from 'react';
-import { TodoCounter } from './TodoCounter';
-import { TodoSearch } from './TodoSearch';
-import { TodoList } from './TodoList';
-import { CreateTodoButton } from './CreateTodoButton';
+import { TodoCounter } from './components/TodoCounter';
+import { TodoSearch } from './components/TodoSearch';
+import { TodoList } from './components/TodoList';
+import { CreateTodoButton } from './components/CreateTodoButton';
+import { TodoItem } from './components/TodoItem';
 
 function App() {
   return (
