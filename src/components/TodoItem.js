@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../assets/styles/components/TodoItem.css'
+import '../assets/styles/components/TodoItem.css'
 
 function TodoItem() {
     return (

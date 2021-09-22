@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from '../assets/styles/components/TodoCounter.css'
+import '../assets/styles/components/TodoCounter.css'
 
 function TodoCounter() {
     return (
-        <div>
-            
+        <div className='hola_mundo'>
+            <h2>Hola mundo</h2>
         </div>
     )
 }
