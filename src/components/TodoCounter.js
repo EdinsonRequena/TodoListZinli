@@ -8,7 +8,7 @@ function TodoCounter() {
       <h2
         className="TodoCounter"
         >
-          Has been completedTodos {completedTodos}, of {totalTodos}. You have {incompleteTodos} TODOs left
+          Has been completed {completedTodos}, of {totalTodos}. You have {incompleteTodos} TODOs left
         </h2>
     );
   }
