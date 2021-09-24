@@ -26,9 +26,9 @@ function AppUI() {
       <TodoCounter />
       <TodoSearch />
           <TodoList>
-            {error && <p>Desespérate, hubo un error./components.</p>}
-            {loading && <p>Estamos cargando, no desesperes./components.</p>}
-            {(!loading && !searchedTodos.length) && <p>¡Crea tu primer TODO!</p>}
+            {error && <p style={{ color: 'white' }}>ERROR!</p>}
+            {loading && <p style={{ color: 'white' }}>Loading...</p>}
+            {(!loading && !searchedTodos.length) && <p style={{ color: 'white' }}>¡Create you first TODO!</p>}
             {searchedTodos.map(todo => (
               <TodoItem
                 key={todo.text}
